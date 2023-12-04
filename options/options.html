@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options.css"/>
+  </head>
+
+  <body>
+    <section>
+      <div class="title" >Recipients</div>
+      <label for="placement">Placement:</label>
+      <select name="placement" id="placement">
+        <option value="t">All in To field</option>
+        <option value="f">First in To, rest in CC</option>
+        <option value="c">All in CC field</option>
+        <option value="b">All in BCC field</option>
+      </select>
+      <p>
+        You can set the default placement of your selected recipients here.
+        You can choose to have all of them placed in the To, CC, or BCC fields,
+        or you can have the first selected recipient go in the To field, and the
+        remaining recipients will be placed in the CC field.
+      </p>
+      <p>You can always move recipients once the composition window is open.</p>
+    </section>
+
+    <script src="options.js"></script>
+  </body>
+
+</html>
